@@ -191,10 +191,17 @@
     width: 100%; }
 
 .newsletter-section-container {
+  display: flex;
+  justify-content: center;
   width: 533px;
   height: 384px;
   position: absolute;
   z-index: 2; }
+  .newsletter-section-container .row {
+    height: 54px;
+    border-radius: 27px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.5); }
   .newsletter-section-container h3 {
     color: #ffffff;
     font-family: "Roboto Slab";
@@ -208,14 +215,22 @@
     font-weight: 300;
     line-height: 24px; }
 
-input {
-  padding: 15px;
-  width: 509px;
+.email-form {
+  width: 513px;
   height: 54px;
-  border-radius: 27px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  background-color: #ffffff;
-  opacity: 0.5; }
+  margin: 0; }
+  .email-form input {
+    padding: 15px;
+    width: 300px;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    outline: 0;
+    resize: none; }
+
+.email-btn {
+  margin: 0;
+  height: 100%; }
 
 body {
   margin: 0 auto;
