@@ -3,6 +3,7 @@
   height:384px;
   display: flex;
   align-items: center;
+  background: #EDEFF1;
 }
 
 .bg-newsletter-section{
@@ -23,7 +24,7 @@
   position: absolute;
   z-index: 2;
   .row{
-    margin-top: 43px;
+    margin-top: 20px;
     height:54px;
     border-radius: 27px;
     border: 1px solid rgba(255, 255, 255, 0.5);
@@ -31,16 +32,12 @@
   }
   h3{
     color: #ffffff;
-    font-family: "Roboto Slab";
-    font-size: 30px;
-    font-weight: 700;
+    font: 700 30px "Roboto Slab";
     line-height: 48px;
   }
   p{
     color: #ffffff;
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 300;
+    font: 300 15px "Roboto Slab";
     line-height: 24px;
   }
 }

@@ -5,6 +5,9 @@
 @import 'sign-up-section';
 @import 'list-section';
 @import 'footer';
+@import "colors";
+
+$main-btn-color: #31353e;
 
 body{
   margin: 0 auto;

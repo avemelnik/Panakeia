@@ -1,17 +1,13 @@
 .logo {
   h1 {
     color: #31353e;
-    font-family: "Roboto Slab";
-    font-size: 36px;
-    font-weight: 700;
+    font: 700 36px "Roboto Slab";
     line-height: 36px;
     margin: 0;
   }
   p{
     color: #dd4b2b;
-    font-family: "Roboto Slab";
-    font-size: 16px;
-    font-weight: 400;
+    font: 400 16px "Roboto Slab";
     line-height: 36px;
     /* Text style for "Free PSD t" */
     letter-spacing: 0.96px;
@@ -45,9 +41,7 @@ padding: 0;
   }
   a {
     color: #31353e;
-    font-family: "Roboto Slab";
-    font-size: 18px;
-    font-weight: 400;
+    font: 400 18px "Roboto Slab";
     line-height: 24px;
   }
 }
