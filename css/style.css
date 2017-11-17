@@ -1,0 +1,231 @@
+.logo h1 {
+  color: #31353e;
+  font-family: "Roboto Slab";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 0; }
+.logo p {
+  color: #dd4b2b;
+  font-family: "Roboto Slab";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  /* Text style for "Free PSD t" */
+  letter-spacing: 0.96px;
+  margin: 0; }
+
+.main-header {
+  height: 10vh; }
+  .main-header .row {
+    height: 100%;
+    align-items: center;
+    align-content: center; }
+
+.logo {
+  padding: 0; }
+
+.nav-tab {
+  padding: 0; }
+
+.nav a:focus {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  background-color: #dd4b2b;
+  color: #edeff1; }
+.nav a {
+  color: #31353e;
+  font-family: "Roboto Slab";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px; }
+
+.welcome-section {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center; }
+
+.bg-welcome-section {
+  width: 100%;
+  height: 90vh;
+  position: absolute;
+  z-index: 1; }
+  .bg-welcome-section img {
+    width: 100%;
+    height: 90vh; }
+
+.bg-welcome-section::before {
+  content: "";
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);
+  position: absolute;
+  z-index: 2;
+  opacity: 0.8; }
+
+.welcome-section-container {
+  width: 100%;
+  height: 90vh;
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center; }
+  .welcome-section-container h2 {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-family: "Roboto Slab";
+    line-height: 48px;
+    /* Text style for "Integer at" */
+    font-size: 72px;
+    font-weight: 300; }
+  .welcome-section-container p {
+    color: #ffffff;
+    font-size: 30px;
+    /* Text style for "finibus lo" */
+    font-weight: 700; }
+
+.best-dishes {
+  margin-top: 50px;
+  width: 1107px;
+  height: 333px; }
+  .best-dishes li {
+    width: 100%;
+    height: 156px; }
+    .best-dishes li .food-name {
+      color: #ffffff;
+      font-family: "Roboto Slab";
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 48px; }
+    .best-dishes li .food-description {
+      color: #ffffff;
+      font-family: Roboto;
+      font-size: 15px;
+      font-weight: 100;
+      line-height: 30px; }
+    .best-dishes li .first-dishes::before {
+      content: url("../img/tincidunt.png");
+      display: block; }
+    .best-dishes li .second-dishes::before {
+      content: url("../img/Duis bibendum.png");
+      display: block; }
+    .best-dishes li .third-dishes::before {
+      content: url("../img/Donec ligula.png");
+      display: block; }
+
+.btn {
+  margin-top: 50px;
+  width: 213px;
+  height: 54px;
+  border-radius: 27px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: #ffffff;
+  color: #612316;
+  font-family: "Roboto Slab";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; }
+
+.btn-info:hover {
+  border: 1px solid #dd4b2b;
+  background-color: #dd4b2b; }
+
+.news-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #EDEFF1; }
+
+.news-section-container {
+  width: 1200px; }
+  .news-section-container h3 {
+    color: #31353e;
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px; }
+
+.news-list {
+  margin-top: 83px;
+  width: 1200px;
+  height: 496px; }
+  .news-list li {
+    width: 30%;
+    height: 496px; }
+    .news-list li img {
+      width: 100%; }
+    .news-list li .food-name {
+      margin-top: 39px;
+      color: #31353e;
+      font-family: "Roboto Slab";
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 48px; }
+    .news-list li .food-description {
+      color: #31353e;
+      font-family: Roboto;
+      font-size: 15px;
+      font-weight: 100;
+      line-height: 30px; }
+    .news-list li .btn {
+      width: 179px; }
+
+.newsletter-section {
+  width: 100%;
+  height: 384px;
+  display: flex;
+  align-items: center;
+  background: #EDEFF1; }
+
+.bg-newsletter-section {
+  width: 100%;
+  height: 384px;
+  position: absolute;
+  z-index: 1; }
+  .bg-newsletter-section img {
+    width: 100%; }
+
+.newsletter-section-container {
+  width: 533px;
+  height: 384px;
+  position: absolute;
+  z-index: 2; }
+  .newsletter-section-container h3 {
+    color: #ffffff;
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px; }
+  .newsletter-section-container p {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px; }
+
+input {
+  padding: 15px;
+  width: 509px;
+  height: 54px;
+  border-radius: 27px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: #ffffff;
+  opacity: 0.5; }
+
+body {
+  margin: 0 auto;
+  width: 100%; }
+
+.main-width {
+  width: 1200px;
+  margin: auto; }
+
+li {
+  list-style: none; }
+
+/*# sourceMappingURL=style.css.map */

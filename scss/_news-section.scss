@@ -1,0 +1,49 @@
+.news-section{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #EDEFF1;
+}
+
+.news-section-container{
+  width: 1200px;
+  h3{
+    color: #31353e;
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+}
+
+.news-list{
+  margin-top: 83px;
+  width: 1200px;
+  height: 496px;
+  li{
+    img{
+      width:100%;
+    }
+    width:30%;
+    height:496px;
+    .food-name {
+      margin-top: 39px;
+      color: #31353e;
+      font-family: "Roboto Slab";
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 48px;
+    }
+    .food-description {
+      color: #31353e;
+      font-family: Roboto;
+      font-size: 15px;
+      font-weight: 100;
+      line-height: 30px;
+    }
+    .btn{
+      width: 179px;
+    }
+  }
+}
