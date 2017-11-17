@@ -273,6 +273,24 @@
 .btn-sign-up-top:hover {
   background: #4b4e73; }
 
+.list-section {
+  width: 100%;
+  height: 412px;
+  display: flex;
+  align-items: center;
+  background: #d75d0e; }
+
+.list {
+  display: flex;
+  align-items: center;
+  align-content: center; }
+  .list a {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px; }
+
 body {
   margin: 0 auto;
   width: 100%; }
